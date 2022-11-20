@@ -10,4 +10,9 @@ public class memberConroller {
     public String MemberPage() {
         return "Member/MemberPage.html";
     }
+
+    @GetMapping("memberPageNew")
+    public String MemberPageNew() {
+        return "Member/MemberPage_New.html";
+    }
 }
